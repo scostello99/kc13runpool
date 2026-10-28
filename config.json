@@ -6,6 +6,7 @@
   "payout_per_week": 35,
   "entry_fee": 45,
   "rotation_seed": 21,
+  "_note": "rotation_seed keeps the 2026 team assignments as they were. Delete that line for 2027 and later: teams then go alphabetically from player 1.",
   "contact_name": "Steve Costello",
   "contact_email": "",
   "social": {

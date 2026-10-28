@@ -80,6 +80,11 @@ td.num,th.num{text-align:right}
 .rules{max-width:65ch}
 .rules ul{padding-left:20px;margin:6px 0 14px}
 .rules h3{font-family:var(--display);font-size:20px;margin:14px 0 4px;letter-spacing:.02em}
+.years{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.years button{font:600 14px var(--body);padding:6px 12px;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:3px;cursor:pointer}
+.years button[aria-selected="true"]{background:var(--navy);color:var(--navy-ink);border-color:var(--navy)}
+.past-meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:14px;color:var(--muted);margin-bottom:10px}
+.past-meta b{color:var(--ink)}
 footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:12px}
 .err{background:var(--hit-bg);color:var(--hit);padding:12px 14px;border-radius:4px}
 
@@ -142,6 +147,12 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
       <div class="scroll"><table id="weeks"></table></div>
     </section>
   </div>
+
+  <section id="pastSec" hidden>
+    <h2>Past Seasons <small>final results</small></h2>
+    <div class="years no-print" id="years" role="tablist"></div>
+    <div id="past"></div>
+  </section>
 
   <section class="rules" id="rules">
     <h2>Rules</h2>
@@ -243,6 +254,32 @@ footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);paddin
     // weeks
     $('weeks').innerHTML='<thead><tr><th>Week</th><th>Dates</th><th>Hits</th><th>Teams</th><th class="num">Per hit</th><th class="num">Paid</th></tr></thead><tbody>'+
       d.weeks.map(w=>`<tr${w.id===cw?' style="font-weight:600"':''}><td>${w.id}</td><td>${fmt(w.start)}–${fmt(w.end)}</td><td>${w.winners||''}</td><td>${w.teams_hit.join(', ')}</td><td class="num">${w.winners?money(w.unit):(w.carryover?'rolls over':'')}</td><td class="num">${w.total?money(w.total):''}</td></tr>`).join('')+'</tbody>';
+
+    // past seasons
+    fetch('history.json',{cache:'no-store'}).then(r=>r.ok?r.json():null).then(h=>{
+      if(!h) return;
+      const past=(h.seasons||[]).filter(s=>s.season!==d.season).sort((a,b)=>b.season-a.season);
+      if(!past.length) return;
+      $('pastSec').hidden=false;
+      const show=yr=>{
+        const s=past.find(x=>x.season===yr);
+        for(const b of $('years').children) b.setAttribute('aria-selected',String(+b.dataset.yr===yr));
+        const meta=[];
+        if(s.players) meta.push(`<span><b>${s.players}</b> players</span>`);
+        if(s.entry_fee) meta.push(`<span><b>${money(s.entry_fee)}</b> entry</span>`);
+        if(s.payout_per_week) meta.push(`<span><b>${money(s.payout_per_week)}</b> per week</span>`);
+        if(s.total_paid!=null) meta.push(`<span><b>${money(s.total_paid)}</b> paid to winners</span>`);
+        if(s.steak_dinner!=null) meta.push(`<span><b>${money(s.steak_dinner)}</b> to the steak dinner</span>`);
+        const half=Math.ceil(s.standings.length/2);
+        const row=(p,i)=>`<tr class="${p.total>0?'money':''}"><td class="rank">${i+1}</td><td>${esc(p.player)}</td><td class="num">${money(p.total)}</td></tr>`;
+        const tbl=rows=>`<table><thead><tr><th></th><th>Player</th><th class="num">Won</th></tr></thead><tbody>${rows}</tbody></table>`;
+        $('past').innerHTML=`<h3 style="font-family:var(--display);font-size:22px;margin:0 0 6px">${s.season} Results</h3><div class="past-meta">${meta.join('')}</div>`
+          +`<div class="standings">${tbl(s.standings.slice(0,half).map(row).join(''))}${tbl(s.standings.slice(half).map((p,i)=>row(p,i+half)).join(''))}</div>`;
+      };
+      $('years').innerHTML=past.map(s=>`<button type="button" role="tab" data-yr="${s.season}">${s.season}</button>`).join('');
+      $('years').addEventListener('click',e=>{const b=e.target.closest('button');if(b)show(+b.dataset.yr)});
+      show(past[0].season);
+    }).catch(()=>{});
 
     $('ruleWeekly').textContent=`The weekly prize is ${money(d.payout_per_week)}, divided by the number of 13-run games that week.`;
     if(d.contact_name) $('contactLine').textContent=`Questions: contact ${d.contact_name}${d.contact_email?' at '+d.contact_email:''}.`;

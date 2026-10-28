@@ -1,0 +1,796 @@
+{
+ "seasons": [
+  {
+   "season": 2021,
+   "players": 30,
+   "entry_fee": 45,
+   "weeks": 27,
+   "total_collected": 1350,
+   "payout_per_week": 37,
+   "steak_dinner": 351,
+   "total_paid": 999,
+   "standings": [
+    {
+     "player": "Frank Evensman",
+     "total": 130
+    },
+    {
+     "player": "CHUCK TIPTON",
+     "total": 90
+    },
+    {
+     "player": "RICH GORAZD",
+     "total": 89
+    },
+    {
+     "player": "BILLY MUSSER",
+     "total": 74
+    },
+    {
+     "player": "Chris Blome",
+     "total": 74
+    },
+    {
+     "player": "JOHN COSTELLO",
+     "total": 74
+    },
+    {
+     "player": "KIP AND JOYCE",
+     "total": 74
+    },
+    {
+     "player": "PAUL STROH",
+     "total": 62
+    },
+    {
+     "player": "MARTINE SAENZ",
+     "total": 49
+    },
+    {
+     "player": "Rob Stroh",
+     "total": 49
+    },
+    {
+     "player": "BOB SIMPSON",
+     "total": 37
+    },
+    {
+     "player": "JEFF ERB",
+     "total": 25
+    },
+    {
+     "player": "LARRY FRIEDRICK",
+     "total": 25
+    },
+    {
+     "player": "RON BRIGHT & BRUCE",
+     "total": 25
+    },
+    {
+     "player": "BOB BRASWELL",
+     "total": 24
+    },
+    {
+     "player": "BRAD ETTLING",
+     "total": 19
+    },
+    {
+     "player": "GINA STROH",
+     "total": 19
+    },
+    {
+     "player": "MIKE SANDHEINDRICH",
+     "total": 15
+    },
+    {
+     "player": "Darren Hellen",
+     "total": 12
+    },
+    {
+     "player": "STEVE COSTELLO",
+     "total": 12
+    },
+    {
+     "player": "JOE KOSYDOR",
+     "total": 9
+    },
+    {
+     "player": "GREG THOMAS",
+     "total": 6
+    },
+    {
+     "player": "MICHELLE SANDHEINDRICH",
+     "total": 6
+    },
+    {
+     "player": "BOBBIE VERTS",
+     "total": 0
+    },
+    {
+     "player": "DENNIS SANDHEINDRICH",
+     "total": 0
+    },
+    {
+     "player": "Jay Reeser",
+     "total": 0
+    },
+    {
+     "player": "John Alesaki",
+     "total": 0
+    },
+    {
+     "player": "Mona (KC)",
+     "total": 0
+    },
+    {
+     "player": "RICH REED",
+     "total": 0
+    },
+    {
+     "player": "RON CAVINS",
+     "total": 0
+    }
+   ]
+  },
+  {
+   "season": 2022,
+   "players": 30,
+   "entry_fee": 45,
+   "weeks": 27,
+   "total_collected": 1350,
+   "payout_per_week": 35,
+   "total_paid": 924,
+   "steak_dinner": 426,
+   "standings": [
+    {
+     "player": "Chris Blome",
+     "total": 94
+    },
+    {
+     "player": "BOB BRASWELL",
+     "total": 82
+    },
+    {
+     "player": "Rob Stroh",
+     "total": 70
+    },
+    {
+     "player": "STEVE COSTELLO",
+     "total": 60
+    },
+    {
+     "player": "BILLY MUSSER",
+     "total": 56
+    },
+    {
+     "player": "Jay Reeser",
+     "total": 56
+    },
+    {
+     "player": "KIP AND JOYCE",
+     "total": 56
+    },
+    {
+     "player": "JEFF ERB",
+     "total": 53
+    },
+    {
+     "player": "GREG THOMAS",
+     "total": 51
+    },
+    {
+     "player": "PAUL STROH",
+     "total": 47
+    },
+    {
+     "player": "Bruce Arnold",
+     "total": 35
+    },
+    {
+     "player": "JOHN COSTELLO",
+     "total": 30
+    },
+    {
+     "player": "RICH REED",
+     "total": 30
+    },
+    {
+     "player": "BOB SIMPSON",
+     "total": 27
+    },
+    {
+     "player": "Darren Hellen",
+     "total": 21
+    },
+    {
+     "player": "Frank Evensman",
+     "total": 21
+    },
+    {
+     "player": "BOBBIE VERTS",
+     "total": 18
+    },
+    {
+     "player": "DENNIS SANDHEINDRICH",
+     "total": 18
+    },
+    {
+     "player": "MARTINE SAENZ",
+     "total": 18
+    },
+    {
+     "player": "MIKE SANDHEINDRICH",
+     "total": 18
+    },
+    {
+     "player": "Tom Wiegert",
+     "total": 18
+    },
+    {
+     "player": "John Alesaki",
+     "total": 12
+    },
+    {
+     "player": "MICHELLE SANDHEINDRICH",
+     "total": 12
+    },
+    {
+     "player": "RON CAVINS",
+     "total": 12
+    },
+    {
+     "player": "GINA STROH",
+     "total": 9
+    },
+    {
+     "player": "BRAD ETTLING",
+     "total": 0
+    },
+    {
+     "player": "CHUCK TIPTON",
+     "total": 0
+    },
+    {
+     "player": "Mona (KC)",
+     "total": 0
+    },
+    {
+     "player": "RICH GORAZD",
+     "total": 0
+    },
+    {
+     "player": "RON BRIGHT & BRUCE",
+     "total": 0
+    }
+   ]
+  },
+  {
+   "season": 2023,
+   "players": 30,
+   "entry_fee": 45,
+   "weeks": 27,
+   "total_collected": 1350,
+   "payout_per_week": 35,
+   "total_paid": 915,
+   "steak_dinner": 435,
+   "standings": [
+    {
+     "player": "MICHELLE SANDHEINDRICH",
+     "total": 106
+    },
+    {
+     "player": "Chris Blome",
+     "total": 105
+    },
+    {
+     "player": "KIP AND JOYCE",
+     "total": 88
+    },
+    {
+     "player": "RON BRIGHT",
+     "total": 76
+    },
+    {
+     "player": "GREG THOMAS",
+     "total": 58
+    },
+    {
+     "player": "BRAD ETTLING",
+     "total": 53
+    },
+    {
+     "player": "DENNIS SANDHEINDRICH",
+     "total": 53
+    },
+    {
+     "player": "JOHN COSTELLO",
+     "total": 53
+    },
+    {
+     "player": "MIKE SANDHEINDRICH",
+     "total": 53
+    },
+    {
+     "player": "RON CAVINS",
+     "total": 53
+    },
+    {
+     "player": "BOBBIE VERTS",
+     "total": 47
+    },
+    {
+     "player": "MARTINE SAENZ",
+     "total": 35
+    },
+    {
+     "player": "Mona (KC)",
+     "total": 35
+    },
+    {
+     "player": "JEFF ERB",
+     "total": 23
+    },
+    {
+     "player": "Rob Stroh",
+     "total": 23
+    },
+    {
+     "player": "BOB SIMPSON",
+     "total": 18
+    },
+    {
+     "player": "GINA STROH",
+     "total": 18
+    },
+    {
+     "player": "RICH REED",
+     "total": 18
+    },
+    {
+     "player": "BILLY MUSSER",
+     "total": 0
+    },
+    {
+     "player": "BOB BRASWELL",
+     "total": 0
+    },
+    {
+     "player": "Bruce Arnold",
+     "total": 0
+    },
+    {
+     "player": "CHUCK TIPTON",
+     "total": 0
+    },
+    {
+     "player": "Darren Hellen",
+     "total": 0
+    },
+    {
+     "player": "Frank Evensman",
+     "total": 0
+    },
+    {
+     "player": "Jay Reeser",
+     "total": 0
+    },
+    {
+     "player": "John Alesaki",
+     "total": 0
+    },
+    {
+     "player": "PAUL STROH",
+     "total": 0
+    },
+    {
+     "player": "RICH GORAZD",
+     "total": 0
+    },
+    {
+     "player": "STEVE COSTELLO",
+     "total": 0
+    },
+    {
+     "player": "Tom Wiegert",
+     "total": 0
+    }
+   ]
+  },
+  {
+   "season": 2024,
+   "players": 30,
+   "entry_fee": 45,
+   "weeks": 27,
+   "total_collected": 1350,
+   "payout_per_week": 35,
+   "total_paid": 953,
+   "steak_dinner": 397,
+   "standings": [
+    {
+     "player": "GINA STROH",
+     "total": 140
+    },
+    {
+     "player": "Tyson M.",
+     "total": 123
+    },
+    {
+     "player": "Chris Blome",
+     "total": 106
+    },
+    {
+     "player": "RICH GORAZD",
+     "total": 105
+    },
+    {
+     "player": "JOHN COSTELLO",
+     "total": 70
+    },
+    {
+     "player": "KIP AND JOYCE",
+     "total": 70
+    },
+    {
+     "player": "Darren Hellen",
+     "total": 53
+    },
+    {
+     "player": "RICH REED",
+     "total": 53
+    },
+    {
+     "player": "BOBBIE VERTS",
+     "total": 36
+    },
+    {
+     "player": "MARTINE SAENZ",
+     "total": 36
+    },
+    {
+     "player": "PAUL STROH",
+     "total": 36
+    },
+    {
+     "player": "STEVE COSTELLO",
+     "total": 36
+    },
+    {
+     "player": "CHUCK TIPTON",
+     "total": 35
+    },
+    {
+     "player": "BRAD ETTLING",
+     "total": 18
+    },
+    {
+     "player": "Bruce Arnold",
+     "total": 18
+    },
+    {
+     "player": "MICHELLE SANDHEINDRICH",
+     "total": 18
+    },
+    {
+     "player": "BILLY MUSSER",
+     "total": 0
+    },
+    {
+     "player": "BOB BRASWELL",
+     "total": 0
+    },
+    {
+     "player": "BOB SIMPSON",
+     "total": 0
+    },
+    {
+     "player": "DENNIS SANDHEINDRICH",
+     "total": 0
+    },
+    {
+     "player": "GREG THOMAS",
+     "total": 0
+    },
+    {
+     "player": "Jay Reeser",
+     "total": 0
+    },
+    {
+     "player": "JEFF ERB",
+     "total": 0
+    },
+    {
+     "player": "John Alesaki",
+     "total": 0
+    },
+    {
+     "player": "MIKE SANDHEINDRICH",
+     "total": 0
+    },
+    {
+     "player": "Mona (KC)",
+     "total": 0
+    },
+    {
+     "player": "Rob Stroh",
+     "total": 0
+    },
+    {
+     "player": "RON BRIGHT",
+     "total": 0
+    },
+    {
+     "player": "RON CAVINS",
+     "total": 0
+    },
+    {
+     "player": "Tom Wiegert",
+     "total": 0
+    }
+   ]
+  },
+  {
+   "season": 2025,
+   "players": 30,
+   "entry_fee": 45,
+   "weeks": 27,
+   "total_collected": 1350,
+   "payout_per_week": 35,
+   "total_paid": 955,
+   "steak_dinner": 395,
+   "standings": [
+    {
+     "player": "Tyson M.",
+     "total": 175
+    },
+    {
+     "player": "DENNIS SANDHEINDRICH",
+     "total": 106
+    },
+    {
+     "player": "CHUCK TIPTON",
+     "total": 82
+    },
+    {
+     "player": "BRAD ETTLING",
+     "total": 71
+    },
+    {
+     "player": "Jay Reeser",
+     "total": 53
+    },
+    {
+     "player": "Mona (KC)",
+     "total": 53
+    },
+    {
+     "player": "Rob Stroh",
+     "total": 53
+    },
+    {
+     "player": "RON BRIGHT",
+     "total": 53
+    },
+    {
+     "player": "STEVE COSTELLO",
+     "total": 53
+    },
+    {
+     "player": "Tom Wiegert",
+     "total": 47
+    },
+    {
+     "player": "RICH GORAZD",
+     "total": 35
+    },
+    {
+     "player": "BOBBIE VERTS",
+     "total": 24
+    },
+    {
+     "player": "BOB SIMPSON",
+     "total": 18
+    },
+    {
+     "player": "Bruce Arnold",
+     "total": 18
+    },
+    {
+     "player": "Darren Hellen",
+     "total": 18
+    },
+    {
+     "player": "GREG THOMAS",
+     "total": 18
+    },
+    {
+     "player": "MARTINE SAENZ",
+     "total": 18
+    },
+    {
+     "player": "MIKE SANDHEINDRICH",
+     "total": 18
+    },
+    {
+     "player": "PAUL STROH",
+     "total": 18
+    },
+    {
+     "player": "KIP AND JOYCE",
+     "total": 12
+    },
+    {
+     "player": "RICH REED",
+     "total": 12
+    },
+    {
+     "player": "BILLY MUSSER",
+     "total": 0
+    },
+    {
+     "player": "BOB BRASWELL",
+     "total": 0
+    },
+    {
+     "player": "Chris Blome",
+     "total": 0
+    },
+    {
+     "player": "GINA STROH",
+     "total": 0
+    },
+    {
+     "player": "JEFF ERB",
+     "total": 0
+    },
+    {
+     "player": "John Alesaki",
+     "total": 0
+    },
+    {
+     "player": "JOHN COSTELLO",
+     "total": 0
+    },
+    {
+     "player": "MICHELLE SANDHEINDRICH",
+     "total": 0
+    },
+    {
+     "player": "RON CAVINS",
+     "total": 0
+    }
+   ]
+  },
+  {
+   "season": 2026,
+   "players": 30,
+   "entry_fee": 45,
+   "weeks": 27,
+   "total_collected": 1350,
+   "payout_per_week": 35,
+   "total_paid": 951,
+   "steak_dinner": 399,
+   "standings": [
+    {
+     "player": "MICHELLE SANDHEINDRICH",
+     "total": 140
+    },
+    {
+     "player": "Chris Blome",
+     "total": 120
+    },
+    {
+     "player": "Mona (KC)",
+     "total": 117
+    },
+    {
+     "player": "RON BRIGHT",
+     "total": 88
+    },
+    {
+     "player": "JOHN COSTELLO",
+     "total": 70
+    },
+    {
+     "player": "RON CAVINS",
+     "total": 70
+    },
+    {
+     "player": "KIP AND JOYCE",
+     "total": 65
+    },
+    {
+     "player": "STEVE COSTELLO",
+     "total": 47
+    },
+    {
+     "player": "CHUCK TIPTON",
+     "total": 35
+    },
+    {
+     "player": "GINA STROH",
+     "total": 35
+    },
+    {
+     "player": "LARRY O'NIEL",
+     "total": 30
+    },
+    {
+     "player": "Tom Wiegert",
+     "total": 27
+    },
+    {
+     "player": "SUE ARNOLD",
+     "total": 23
+    },
+    {
+     "player": "PAUL STROH",
+     "total": 18
+    },
+    {
+     "player": "RICH REED",
+     "total": 18
+    },
+    {
+     "player": "Tyson M.",
+     "total": 18
+    },
+    {
+     "player": "RICH GORAZD",
+     "total": 12
+    },
+    {
+     "player": "MIKE SANDHEINDRICH",
+     "total": 9
+    },
+    {
+     "player": "MIKE TIERNAN",
+     "total": 9
+    },
+    {
+     "player": "BILLY MUSSER",
+     "total": 0
+    },
+    {
+     "player": "BOB BRASWELL",
+     "total": 0
+    },
+    {
+     "player": "BOB SIMPSON",
+     "total": 0
+    },
+    {
+     "player": "BOBBIE VERTS",
+     "total": 0
+    },
+    {
+     "player": "BRAD ETTLING",
+     "total": 0
+    },
+    {
+     "player": "Darren Hellen",
+     "total": 0
+    },
+    {
+     "player": "GREG THOMAS",
+     "total": 0
+    },
+    {
+     "player": "Jay Reeser",
+     "total": 0
+    },
+    {
+     "player": "John Alesaki",
+     "total": 0
+    },
+    {
+     "player": "MARTINE SAENZ",
+     "total": 0
+    },
+    {
+     "player": "Rob Stroh",
+     "total": 0
+    }
+   ]
+  }
+ ]
+}
