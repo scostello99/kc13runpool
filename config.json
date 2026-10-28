@@ -1,0 +1,62 @@
+{
+  "pool_name": "O'Fallon 13 Run Pool",
+  "season": 2026,
+  "opening_date": "2026-03-25",
+  "last_date": "2026-09-27",
+  "payout_per_week": 35,
+  "entry_fee": 45,
+  "rotation_seed": 21,
+  "contact_name": "Steve Costello",
+  "contact_email": "",
+  "social": {
+    "facebook": "",
+    "instagram": ""
+  },
+  "notices": [
+    {
+      "date": "2026-10-01",
+      "title": "Steak dinner",
+      "text": "Date and location to be announced. Check back here."
+    }
+  ],
+  "players": [
+    "BILLY MUSSER", "BOB BRASWELL", "BOB SIMPSON", "BOBBIE VERTS", "BRAD ETTLING",
+    "Chris Blome", "CHUCK TIPTON", "Darren Hellen", "LARRY O'NIEL", "Tyson M.",
+    "GINA STROH", "GREG THOMAS", "Jay Reeser", "MIKE TIERNAN", "Tom Wiegert",
+    "John Alesaki", "JOHN COSTELLO", "KIP AND JOYCE", "SUE ARNOLD", "MARTINE SAENZ",
+    "MICHELLE SANDHEINDRICH", "MIKE SANDHEINDRICH", "Mona (KC)", "PAUL STROH", "RICH GORAZD",
+    "RICH REED", "Rob Stroh", "RON BRIGHT", "RON CAVINS", "STEVE COSTELLO"
+  ],
+  "teams": [
+    ["ARI", "Arizona Diamondbacks", "Diamondbacks"],
+    ["ATL", "Atlanta Braves", "Braves"],
+    ["BAL", "Baltimore Orioles", "Orioles"],
+    ["BOS", "Boston Red Sox", "Red Sox"],
+    ["CHC", "Chicago Cubs", "Cubs"],
+    ["CWS", "Chicago White Sox", "White Sox"],
+    ["CIN", "Cincinnati Reds", "Reds"],
+    ["CLE", "Cleveland Guardians", "Guardians"],
+    ["COL", "Colorado Rockies", "Rockies"],
+    ["DET", "Detroit Tigers", "Tigers"],
+    ["FLA", "Miami Marlins", "Marlins"],
+    ["HOU", "Houston Astros", "Astros"],
+    ["KAN", "Kansas City Royals", "Royals"],
+    ["LAA", "Los Angeles Angels", "Angels"],
+    ["LAD", "Los Angeles Dodgers", "Dodgers"],
+    ["MIL", "Milwaukee Brewers", "Brewers"],
+    ["MIN", "Minnesota Twins", "Twins"],
+    ["NYM", "New York Mets", "Mets"],
+    ["NYY", "New York Yankees", "Yankees"],
+    ["OAK", "Athletics", "Athletics"],
+    ["PHI", "Philadelphia Phillies", "Phillies"],
+    ["PIT", "Pittsburgh Pirates", "Pirates"],
+    ["SD", "San Diego Padres", "Padres"],
+    ["SF", "San Francisco Giants", "Giants"],
+    ["SEA", "Seattle Mariners", "Mariners"],
+    ["STL", "St. Louis Cardinals", "Cardinals"],
+    ["TB", "Tampa Bay Rays", "Rays"],
+    ["TEX", "Texas Rangers", "Rangers"],
+    ["TOR", "Toronto Blue Jays", "Blue Jays"],
+    ["WAS", "Washington Nationals", "Nationals"]
+  ]
+}

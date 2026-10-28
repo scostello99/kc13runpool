@@ -1,0 +1,252 @@
+<title>KC 13 Run Pool</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: a scorecard. One column of sections; the weekly grid scrolls sideways on screen and prints landscape. */
+:root{
+  --paper:#f7f5ef; --ink:#1b2235; --muted:#5f6577; --line:#d9d5c9;
+  --navy:#17305a; --navy-ink:#ffffff; --hit:#b8322c; --hit-bg:#fbe5e2;
+  --card:#ffffff; --band:#ecebe3; --focus:#2b6cb0;
+  --display:"Barlow Condensed","Arial Narrow",Impact,sans-serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --paper:#15181f; --ink:#e8e6df; --muted:#a3a7b3; --line:#2e3340;
+  --navy:#243f73; --navy-ink:#ffffff; --hit:#ff7b73; --hit-bg:#4a2320;
+  --card:#1d212a; --band:#22262f; --focus:#7fb0ff; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --paper:#15181f; --ink:#e8e6df; --muted:#a3a7b3; --line:#2e3340;
+  --navy:#243f73; --navy-ink:#ffffff; --hit:#ff7b73; --hit-bg:#4a2320;
+  --card:#1d212a; --band:#22262f; --focus:#7fb0ff; color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45;margin:0}
+a{color:var(--navy)}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+
+header.top{background:var(--navy);color:var(--navy-ink)}
+header.top .in{max-width:1100px;margin:0 auto;padding-block:18px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px}
+h1{font-family:var(--display);font-weight:700;font-size:clamp(34px,6vw,54px);line-height:.95;margin:0;letter-spacing:.01em;text-wrap:balance}
+.sub{font-size:14px;opacity:.85;margin-top:6px}
+.actions{display:flex;flex-wrap:wrap;gap:8px}
+.btn{font:600 14px var(--body);color:var(--navy-ink);background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.35);
+  border-radius:4px;padding:7px 12px;cursor:pointer;text-decoration:none;display:inline-flex;align-items:center;gap:6px}
+.btn:hover{background:rgba(255,255,255,.24)}
+.btn svg{width:16px;height:16px;fill:currentColor}
+
+main{max-width:1100px;margin:0 auto;padding-block:20px 48px;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  display:grid;gap:28px}
+section{min-width:0}
+h2{font-family:var(--display);font-weight:600;font-size:26px;margin:0 0 10px;letter-spacing:.02em;text-transform:uppercase;
+  display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+h2 small{font:400 13px var(--body);color:var(--muted);text-transform:none;letter-spacing:0}
+
+.notices{background:var(--card);border:1px solid var(--line);border-left:5px solid var(--hit);padding:14px 16px;display:grid;gap:10px}
+.notice b{display:block}
+.notice .d{font-size:13px;color:var(--muted)}
+
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px}
+.stat{background:var(--band);padding:10px 12px}
+.stat .k{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+.stat .v{font-family:var(--display);font-size:30px;font-weight:700;line-height:1.1;font-variant-numeric:tabular-nums}
+
+table{border-collapse:collapse;font-variant-numeric:tabular-nums;width:100%}
+th,td{padding:5px 8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{font-size:12px;letter-spacing:.05em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.num,th.num{text-align:right}
+.scroll{overflow-x:auto;border:1px solid var(--line);background:var(--card)}
+
+.standings{columns:2;column-gap:28px}
+@media (max-width:620px){.standings{columns:1}}
+.standings table{break-inside:avoid}
+.standings td.rank{color:var(--muted);width:2.5em}
+.standings tr.money td{font-weight:600}
+
+.grid th,.grid td{padding:4px 6px;font-size:13px;text-align:center}
+.grid th:first-child,.grid td:first-child{text-align:left;position:sticky;left:0;background:var(--card);z-index:1;font-weight:600;min-width:170px}
+.grid th.wk{color:var(--ink)}
+.grid th.wk .dt{display:block;font:400 10px var(--body);color:var(--muted);letter-spacing:0;text-transform:none}
+.grid td.hit{background:var(--hit-bg);color:var(--hit);font-weight:700}
+.grid td.hit .won{display:block;font-size:11px}
+.grid td.cur,.grid th.cur{box-shadow:inset 2px 0 0 var(--navy),inset -2px 0 0 var(--navy)}
+.grid td.tot,.grid th.tot{text-align:right;font-weight:700;position:sticky;right:0;background:var(--card)}
+.grid tr.money td:first-child{color:var(--hit)}
+
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+.rules{max-width:65ch}
+.rules ul{padding-left:20px;margin:6px 0 14px}
+.rules h3{font-family:var(--display);font-size:20px;margin:14px 0 4px;letter-spacing:.02em}
+footer{color:var(--muted);font-size:13px;border-top:1px solid var(--line);padding-top:12px}
+.err{background:var(--hit-bg);color:var(--hit);padding:12px 14px;border-radius:4px}
+
+/* Print: letter landscape, grid fits one sheet; social/print buttons hidden */
+@media print{
+  @page{size:letter landscape;margin:.4in}
+  body{background:#fff;color:#000;font-size:11px}
+  header.top{background:none;color:#000;border-bottom:2px solid #000}
+  .actions,.no-print{display:none!important}
+  main{gap:14px;padding-block:8px}
+  .scroll{overflow:visible;border:none}
+  .grid th,.grid td{font-size:8.5px;padding:2px 3px;border:1px solid #bbb}
+  .grid th:first-child,.grid td:first-child{min-width:0;position:static}
+  .grid td.hit{background:#eee!important;color:#000;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .stat{border:1px solid #bbb}
+  section{break-inside:avoid}
+  #weekly{break-before:page}
+  .standings{columns:3}
+}
+</style>
+
+<header class="top"><div class="in">
+  <div>
+    <h1 id="title">O'Fallon 13 Run Pool</h1>
+    <div class="sub" id="subtitle">Loading season…</div>
+  </div>
+  <div class="actions" id="actions">
+    <button class="btn" type="button" id="printBtn" title="Print the standings and weekly grid">
+      <svg viewBox="0 0 24 24"><path d="M6 2h12v6H6zM4 9h16a2 2 0 0 1 2 2v6h-4v5H6v-5H2v-6a2 2 0 0 1 2-2zm4 7v5h8v-5z"/></svg>Print</button>
+  </div>
+</div></header>
+
+<main id="main">
+  <section id="noticesSec" hidden>
+    <h2>Notices</h2>
+    <div class="notices" id="notices"></div>
+  </section>
+
+  <section>
+    <div class="stats" id="stats"></div>
+  </section>
+
+  <section id="standingsSec">
+    <h2>Standings <small>winnings to date; paid at the steak dinner</small></h2>
+    <div class="standings" id="standings"></div>
+  </section>
+
+  <section id="weekly">
+    <h2>Weekly Results <small>your team each week; red cells scored 13 runs</small></h2>
+    <div class="scroll"><table class="grid" id="grid"></table></div>
+  </section>
+
+  <div class="two">
+    <section>
+      <h2>13-Run Games <small>from sportsdatabase.com</small></h2>
+      <div class="scroll"><table id="events"></table></div>
+    </section>
+    <section>
+      <h2>Week by Week <small>pot, winners, payout per hit</small></h2>
+      <div class="scroll"><table id="weeks"></table></div>
+    </section>
+  </div>
+
+  <section class="rules" id="rules">
+    <h2>Rules</h2>
+    <h3>How it works</h3>
+    <ul>
+      <li>30 participants, 30 MLB teams, one team per participant each week. Teams rotate so everyone gets every team once.</li>
+      <li>Each new week starts on a Monday (week 1 runs from Opening Day to the first Sunday).</li>
+      <li>Every time a team scores exactly 13 runs in a game, the participants holding that team that week share the weekly prize.</li>
+      <li>If more than one team hits 13 in a week, the prize is split evenly per hit. A team that hits 13 twice earns two shares.</li>
+    </ul>
+    <h3>Payout</h3>
+    <ul>
+      <li id="ruleWeekly">The weekly prize is $35, divided by the number of 13-run games that week.</li>
+      <li>If no team hits 13 in a week, the prize rolls over to the next week.</li>
+      <li>All winners are paid at the end of the year, at the steak dinner if you can make it. If you can't, we'll make separate arrangements.</li>
+      <li>Winnings shown here are not final until the end of the season, in case of a data error.</li>
+    </ul>
+    <h3>Communications</h3>
+    <ul>
+      <li>Check this page for weekly team assignments and winnings. Results update automatically every day.</li>
+      <li id="contactLine">Questions: contact the pool organizer.</li>
+    </ul>
+  </section>
+
+  <footer id="foot"></footer>
+</main>
+
+<script>
+(function(){
+  const $=id=>document.getElementById(id);
+  const money=n=>'$'+Math.round(n);
+  const fmt=iso=>{const [y,m,d]=iso.split('-');return `${+m}/${+d}`};
+  const fmtLong=iso=>new Date(iso+'T12:00:00').toLocaleDateString(undefined,{month:'short',day:'numeric',year:'numeric'});
+  const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+
+  $('printBtn').addEventListener('click',()=>{try{window.print()}catch(e){}});
+
+  fetch('data.json',{cache:'no-store'}).then(r=>{if(!r.ok)throw new Error(r.status);return r.json()}).then(render).catch(err=>{
+    $('subtitle').textContent='Results could not be loaded.';
+    $('main').insertAdjacentHTML('afterbegin',`<div class="err">data.json could not be read (${esc(err.message)}). If this just happened, try again in a minute.</div>`);
+  });
+
+  function render(d){
+    document.title=`KC 13 Run Pool ${d.season}`;
+    $('title').textContent=d.pool_name;
+    const cw=d.current_week, nW=d.weeks.length;
+    const seasonOver=new Date()>new Date(d.last_date+'T23:59:59');
+    $('subtitle').textContent=`${d.season} season · ${seasonOver?'Final':'Week '+(cw||'—')+' of '+nW} · updated ${fmtLong(d.generated.slice(0,10))}`;
+
+    // social buttons
+    const soc=d.social||{};
+    const ico={facebook:'<svg viewBox="0 0 24 24"><path d="M13.5 22v-8h2.7l.4-3.2h-3.1V8.8c0-.9.3-1.6 1.6-1.6h1.7V4.3c-.3 0-1.3-.1-2.5-.1-2.5 0-4.1 1.5-4.1 4.2v2.4H7.4V14h2.8v8z"/></svg>',
+      instagram:'<svg viewBox="0 0 24 24"><path d="M12 7a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zM17.3 5.5a1.2 1.2 0 1 0 0 2.4 1.2 1.2 0 0 0 0-2.4zM21.5 7.1c-.1-1.6-.4-3-1.6-4.2S17.4 1.4 15.9 1.3C14.3 1.2 9.7 1.2 8.1 1.3c-1.6.1-3 .4-4.2 1.6S2.3 5.5 2.2 7.1c-.1 1.6-.1 6.2 0 7.8.1 1.6.4 3 1.6 4.2s2.6 1.5 4.2 1.6c1.6.1 6.2.1 7.8 0 1.6-.1 3-.4 4.2-1.6s1.5-2.6 1.6-4.2c.1-1.6.1-6.2 0-7.8zm-2.2 9.5a3.3 3.3 0 0 1-1.9 1.9c-1.3.5-4.4.4-5.4.4s-4.1.1-5.4-.4a3.3 3.3 0 0 1-1.9-1.9c-.5-1.3-.4-4.4-.4-5.4s-.1-4.1.4-5.4A3.3 3.3 0 0 1 6.6 3.9c1.3-.5 4.4-.4 5.4-.4s4.1-.1 5.4.4a3.3 3.3 0 0 1 1.9 1.9c.5 1.3.4 4.4.4 5.4s.1 4.1-.4 5.4z"/></svg>'};
+    for(const k of ['facebook','instagram']) if(soc[k]){
+      $('actions').insertAdjacentHTML('afterbegin',`<a class="btn" href="${esc(soc[k])}" target="_blank" rel="noopener">${ico[k]}${k[0].toUpperCase()+k.slice(1)}</a>`);
+    }
+
+    // notices
+    const notes=(d.notices||[]).filter(n=>n.title||n.text);
+    if(notes.length){
+      $('noticesSec').hidden=false;
+      $('notices').innerHTML=notes.map(n=>`<div class="notice"><b>${esc(n.title||'')}</b>${n.text?`<div>${esc(n.text)}</div>`:''}${n.date?`<div class="d">Posted ${fmtLong(n.date)}</div>`:''}</div>`).join('');
+    }
+
+    // stats
+    const lastW=d.weeks[Math.min((cw||nW),nW)-1];
+    const carrying=lastW&&lastW.winners===0?d.payout_per_week+lastW.carryover:0;
+    const stats=[
+      ['Week',seasonOver?'Final':`${cw||'—'} / ${nW}`],
+      ['13-run games',d.events.length],
+      ['Paid out so far',money(d.total_paid)],
+      ['Next week\'s pot',money(carrying?carrying+d.payout_per_week:d.payout_per_week)],
+      ['Players',d.player_count],
+    ];
+    $('stats').innerHTML=stats.map(([k,v])=>`<div class="stat"><div class="k">${k}</div><div class="v">${v}</div></div>`).join('');
+
+    // standings (two tables so CSS columns split cleanly)
+    const half=Math.ceil(d.standings.length/2);
+    const row=(s,i)=>`<tr class="${s.total>0?'money':''}"><td class="rank">${i+1}</td><td>${esc(s.player)}</td><td class="num">${money(s.total)}</td></tr>`;
+    $('standings').innerHTML=`<table><thead><tr><th></th><th>Player</th><th class="num">Won</th></tr></thead><tbody>${d.standings.slice(0,half).map(row).join('')}</tbody></table>`
+      +`<table><thead><tr><th></th><th>Player</th><th class="num">Won</th></tr></thead><tbody>${d.standings.slice(half).map((s,i)=>row(s,i+half)).join('')}</tbody></table>`;
+
+    // weekly grid
+    let h='<thead><tr><th>Player</th>'+d.weeks.map(w=>`<th class="wk ${w.id===cw?'cur':''}">Wk ${w.id}<span class="dt">${fmt(w.start)}–${fmt(w.end)}</span></th>`).join('')+'<th class="tot">Total</th></tr></thead><tbody>';
+    for(const m of d.matrix){
+      h+=`<tr class="${m.total>0?'money':''}"><td>${esc(m.player)}</td>`+m.weeks.map((c,i)=>{
+        const cur=d.weeks[i].id===cw?' cur':'';
+        return c.hits?`<td class="hit${cur}" title="${esc(d.team_names[c.team])} scored 13 runs ${c.hits>1?c.hits+' times ':''}this week">${c.team}<span class="won">${money(c.won)}</span></td>`:`<td class="${cur.trim()}">${c.team}</td>`;
+      }).join('')+`<td class="tot">${money(m.total)}</td></tr>`;
+    }
+    h+='</tbody><tfoot><tr><th>Week total</th>'+d.weeks.map(w=>`<th class="num" style="text-align:center">${w.total?money(w.total):''}</th>`).join('')+`<th class="tot">${money(d.total_paid)}</th></tr></tfoot>`;
+    $('grid').innerHTML=h;
+
+    // events
+    const unitFor=w=>d.weeks[w-1]?d.weeks[w-1].unit:0;
+    $('events').innerHTML='<thead><tr><th>Date</th><th>Team</th><th>Week</th><th class="num">Paid</th></tr></thead><tbody>'+
+      d.events.slice().reverse().map(e=>`<tr><td>${fmtLong(e.date)}</td><td>${esc(d.team_names[e.team]||e.team)}</td><td>${e.week??'—'}</td><td class="num">${money(unitFor(e.week))}</td></tr>`).join('')+'</tbody>';
+
+    // weeks
+    $('weeks').innerHTML='<thead><tr><th>Week</th><th>Dates</th><th>Hits</th><th>Teams</th><th class="num">Per hit</th><th class="num">Paid</th></tr></thead><tbody>'+
+      d.weeks.map(w=>`<tr${w.id===cw?' style="font-weight:600"':''}><td>${w.id}</td><td>${fmt(w.start)}–${fmt(w.end)}</td><td>${w.winners||''}</td><td>${w.teams_hit.join(', ')}</td><td class="num">${w.winners?money(w.unit):(w.carryover?'rolls over':'')}</td><td class="num">${w.total?money(w.total):''}</td></tr>`).join('')+'</tbody>';
+
+    $('ruleWeekly').textContent=`The weekly prize is ${money(d.payout_per_week)}, divided by the number of 13-run games that week.`;
+    if(d.contact_name) $('contactLine').textContent=`Questions: contact ${d.contact_name}${d.contact_email?' at '+d.contact_email:''}.`;
+    $('foot').innerHTML=`${d.player_count} players × ${money(d.entry_fee)} entry = ${money(d.total_collected)} collected · ${money(d.total_paid)} paid out · balance goes to the steak dinner. Data from sportsdatabase.com, refreshed daily. Barbets.com`;
+  }
+})();
+</script>

@@ -1,0 +1,4908 @@
+{
+ "pool_name": "O'Fallon 13 Run Pool",
+ "season": 2026,
+ "generated": "2026-10-28T16:37:42Z",
+ "opening_date": "2026-03-25",
+ "last_date": "2026-09-27",
+ "payout_per_week": 35,
+ "entry_fee": 45,
+ "player_count": 30,
+ "total_collected": 1350,
+ "total_paid": 951,
+ "current_week": 27,
+ "contact_name": "Steve Costello",
+ "contact_email": "",
+ "social": {
+  "facebook": "",
+  "instagram": ""
+ },
+ "notices": [
+  {
+   "date": "2026-10-01",
+   "title": "Steak dinner",
+   "text": "Date and location to be announced. Check back here."
+  }
+ ],
+ "team_names": {
+  "ARI": "Arizona Diamondbacks",
+  "ATL": "Atlanta Braves",
+  "BAL": "Baltimore Orioles",
+  "BOS": "Boston Red Sox",
+  "CHC": "Chicago Cubs",
+  "CWS": "Chicago White Sox",
+  "CIN": "Cincinnati Reds",
+  "CLE": "Cleveland Guardians",
+  "COL": "Colorado Rockies",
+  "DET": "Detroit Tigers",
+  "FLA": "Miami Marlins",
+  "HOU": "Houston Astros",
+  "KAN": "Kansas City Royals",
+  "LAA": "Los Angeles Angels",
+  "LAD": "Los Angeles Dodgers",
+  "MIL": "Milwaukee Brewers",
+  "MIN": "Minnesota Twins",
+  "NYM": "New York Mets",
+  "NYY": "New York Yankees",
+  "OAK": "Athletics",
+  "PHI": "Philadelphia Phillies",
+  "PIT": "Pittsburgh Pirates",
+  "SD": "San Diego Padres",
+  "SF": "San Francisco Giants",
+  "SEA": "Seattle Mariners",
+  "STL": "St. Louis Cardinals",
+  "TB": "Tampa Bay Rays",
+  "TEX": "Texas Rangers",
+  "TOR": "Toronto Blue Jays",
+  "WAS": "Washington Nationals"
+ },
+ "weeks": [
+  {
+   "id": 1,
+   "start": "2026-03-25",
+   "end": "2026-03-29",
+   "winners": 0,
+   "carryover": 0,
+   "unit": 0,
+   "total": 0,
+   "teams_hit": []
+  },
+  {
+   "id": 2,
+   "start": "2026-03-30",
+   "end": "2026-04-05",
+   "winners": 3,
+   "carryover": 35,
+   "unit": 23.33,
+   "total": 70.0,
+   "teams_hit": [
+    "WAS",
+    "KAN",
+    "LAD"
+   ]
+  },
+  {
+   "id": 3,
+   "start": "2026-04-06",
+   "end": "2026-04-12",
+   "winners": 1,
+   "carryover": 0,
+   "unit": 35.0,
+   "total": 35.0,
+   "teams_hit": [
+    "ATL"
+   ]
+  },
+  {
+   "id": 4,
+   "start": "2026-04-13",
+   "end": "2026-04-19",
+   "winners": 3,
+   "carryover": 0,
+   "unit": 11.67,
+   "total": 35.0,
+   "teams_hit": [
+    "MIN",
+    "PHI",
+    "NYY"
+   ]
+  },
+  {
+   "id": 5,
+   "start": "2026-04-20",
+   "end": "2026-04-26",
+   "winners": 0,
+   "carryover": 0,
+   "unit": 0,
+   "total": 0,
+   "teams_hit": []
+  },
+  {
+   "id": 6,
+   "start": "2026-04-27",
+   "end": "2026-05-03",
+   "winners": 3,
+   "carryover": 35,
+   "unit": 23.33,
+   "total": 70.0,
+   "teams_hit": [
+    "MIL",
+    "COL",
+    "MIL"
+   ]
+  },
+  {
+   "id": 7,
+   "start": "2026-05-04",
+   "end": "2026-05-10",
+   "winners": 1,
+   "carryover": 0,
+   "unit": 35.0,
+   "total": 35.0,
+   "teams_hit": [
+    "PIT"
+   ]
+  },
+  {
+   "id": 8,
+   "start": "2026-05-11",
+   "end": "2026-05-17",
+   "winners": 1,
+   "carryover": 0,
+   "unit": 35.0,
+   "total": 35.0,
+   "teams_hit": [
+    "WAS"
+   ]
+  },
+  {
+   "id": 9,
+   "start": "2026-05-18",
+   "end": "2026-05-24",
+   "winners": 0,
+   "carryover": 0,
+   "unit": 0,
+   "total": 0,
+   "teams_hit": []
+  },
+  {
+   "id": 10,
+   "start": "2026-05-25",
+   "end": "2026-05-31",
+   "winners": 1,
+   "carryover": 35,
+   "unit": 70.0,
+   "total": 70.0,
+   "teams_hit": [
+    "NYY"
+   ]
+  },
+  {
+   "id": 11,
+   "start": "2026-06-01",
+   "end": "2026-06-07",
+   "winners": 3,
+   "carryover": 0,
+   "unit": 11.67,
+   "total": 35.0,
+   "teams_hit": [
+    "BAL",
+    "HOU",
+    "LAA"
+   ]
+  },
+  {
+   "id": 12,
+   "start": "2026-06-08",
+   "end": "2026-06-14",
+   "winners": 0,
+   "carryover": 0,
+   "unit": 0,
+   "total": 0,
+   "teams_hit": []
+  },
+  {
+   "id": 13,
+   "start": "2026-06-15",
+   "end": "2026-06-21",
+   "winners": 0,
+   "carryover": 35,
+   "unit": 0,
+   "total": 0,
+   "teams_hit": []
+  },
+  {
+   "id": 14,
+   "start": "2026-06-22",
+   "end": "2026-06-28",
+   "winners": 1,
+   "carryover": 70,
+   "unit": 105.0,
+   "total": 105.0,
+   "teams_hit": [
+    "TB"
+   ]
+  },
+  {
+   "id": 15,
+   "start": "2026-06-29",
+   "end": "2026-07-05",
+   "winners": 0,
+   "carryover": 0,
+   "unit": 0,
+   "total": 0,
+   "teams_hit": []
+  },
+  {
+   "id": 16,
+   "start": "2026-07-06",
+   "end": "2026-07-12",
+   "winners": 1,
+   "carryover": 35,
+   "unit": 70.0,
+   "total": 70.0,
+   "teams_hit": [
+    "LAA"
+   ]
+  },
+  {
+   "id": 17,
+   "start": "2026-07-13",
+   "end": "2026-07-19",
+   "winners": 0,
+   "carryover": 0,
+   "unit": 0,
+   "total": 0,
+   "teams_hit": []
+  },
+  {
+   "id": 18,
+   "start": "2026-07-20",
+   "end": "2026-07-26",
+   "winners": 1,
+   "carryover": 35,
+   "unit": 70.0,
+   "total": 70.0,
+   "teams_hit": [
+    "CLE"
+   ]
+  },
+  {
+   "id": 19,
+   "start": "2026-07-27",
+   "end": "2026-08-02",
+   "winners": 1,
+   "carryover": 0,
+   "unit": 35.0,
+   "total": 35.0,
+   "teams_hit": [
+    "DET"
+   ]
+  },
+  {
+   "id": 20,
+   "start": "2026-08-03",
+   "end": "2026-08-09",
+   "winners": 4,
+   "carryover": 0,
+   "unit": 8.75,
+   "total": 35.0,
+   "teams_hit": [
+    "STL",
+    "TB",
+    "NYM",
+    "BOS"
+   ]
+  },
+  {
+   "id": 21,
+   "start": "2026-08-10",
+   "end": "2026-08-16",
+   "winners": 2,
+   "carryover": 0,
+   "unit": 17.5,
+   "total": 35.0,
+   "teams_hit": [
+    "PIT",
+    "COL"
+   ]
+  },
+  {
+   "id": 22,
+   "start": "2026-08-17",
+   "end": "2026-08-23",
+   "winners": 0,
+   "carryover": 0,
+   "unit": 0,
+   "total": 0,
+   "teams_hit": []
+  },
+  {
+   "id": 23,
+   "start": "2026-08-24",
+   "end": "2026-08-30",
+   "winners": 4,
+   "carryover": 35,
+   "unit": 17.5,
+   "total": 70.0,
+   "teams_hit": [
+    "WAS",
+    "BAL",
+    "COL",
+    "KAN"
+   ]
+  },
+  {
+   "id": 24,
+   "start": "2026-08-31",
+   "end": "2026-09-06",
+   "winners": 2,
+   "carryover": 0,
+   "unit": 17.5,
+   "total": 35.0,
+   "teams_hit": [
+    "PIT",
+    "STL"
+   ]
+  },
+  {
+   "id": 25,
+   "start": "2026-09-07",
+   "end": "2026-09-13",
+   "winners": 1,
+   "carryover": 0,
+   "unit": 35.0,
+   "total": 35.0,
+   "teams_hit": [
+    "MIL"
+   ]
+  },
+  {
+   "id": 26,
+   "start": "2026-09-14",
+   "end": "2026-09-20",
+   "winners": 0,
+   "carryover": 0,
+   "unit": 0,
+   "total": 0,
+   "teams_hit": []
+  },
+  {
+   "id": 27,
+   "start": "2026-09-21",
+   "end": "2026-09-27",
+   "winners": 1,
+   "carryover": 35,
+   "unit": 70.0,
+   "total": 70.0,
+   "teams_hit": [
+    "HOU"
+   ]
+  }
+ ],
+ "events": [
+  {
+   "date": "2026-03-30",
+   "team": "WAS",
+   "week": 2
+  },
+  {
+   "date": "2026-04-01",
+   "team": "KAN",
+   "week": 2
+  },
+  {
+   "date": "2026-04-03",
+   "team": "LAD",
+   "week": 2
+  },
+  {
+   "date": "2026-04-12",
+   "team": "ATL",
+   "week": 3
+  },
+  {
+   "date": "2026-04-13",
+   "team": "MIN",
+   "week": 4
+  },
+  {
+   "date": "2026-04-13",
+   "team": "PHI",
+   "week": 4
+  },
+  {
+   "date": "2026-04-18",
+   "team": "NYY",
+   "week": 4
+  },
+  {
+   "date": "2026-04-28",
+   "team": "MIL",
+   "week": 6
+  },
+  {
+   "date": "2026-04-29",
+   "team": "COL",
+   "week": 6
+  },
+  {
+   "date": "2026-04-30",
+   "team": "MIL",
+   "week": 6
+  },
+  {
+   "date": "2026-05-09",
+   "team": "PIT",
+   "week": 7
+  },
+  {
+   "date": "2026-05-16",
+   "team": "WAS",
+   "week": 8
+  },
+  {
+   "date": "2026-05-31",
+   "team": "NYY",
+   "week": 10
+  },
+  {
+   "date": "2026-06-05",
+   "team": "BAL",
+   "week": 11
+  },
+  {
+   "date": "2026-06-06",
+   "team": "HOU",
+   "week": 11
+  },
+  {
+   "date": "2026-06-07",
+   "team": "LAA",
+   "week": 11
+  },
+  {
+   "date": "2026-06-25",
+   "team": "TB",
+   "week": 14
+  },
+  {
+   "date": "2026-07-08",
+   "team": "LAA",
+   "week": 16
+  },
+  {
+   "date": "2026-07-20",
+   "team": "CLE",
+   "week": 18
+  },
+  {
+   "date": "2026-07-31",
+   "team": "DET",
+   "week": 19
+  },
+  {
+   "date": "2026-08-03",
+   "team": "STL",
+   "week": 20
+  },
+  {
+   "date": "2026-08-03",
+   "team": "TB",
+   "week": 20
+  },
+  {
+   "date": "2026-08-06",
+   "team": "NYM",
+   "week": 20
+  },
+  {
+   "date": "2026-08-07",
+   "team": "BOS",
+   "week": 20
+  },
+  {
+   "date": "2026-08-13",
+   "team": "PIT",
+   "week": 21
+  },
+  {
+   "date": "2026-08-16",
+   "team": "COL",
+   "week": 21
+  },
+  {
+   "date": "2026-08-24",
+   "team": "WAS",
+   "week": 23
+  },
+  {
+   "date": "2026-08-25",
+   "team": "BAL",
+   "week": 23
+  },
+  {
+   "date": "2026-08-26",
+   "team": "COL",
+   "week": 23
+  },
+  {
+   "date": "2026-08-27",
+   "team": "KAN",
+   "week": 23
+  },
+  {
+   "date": "2026-09-01",
+   "team": "PIT",
+   "week": 24
+  },
+  {
+   "date": "2026-09-01",
+   "team": "STL",
+   "week": 24
+  },
+  {
+   "date": "2026-09-12",
+   "team": "MIL",
+   "week": 25
+  },
+  {
+   "date": "2026-09-26",
+   "team": "HOU",
+   "week": 27
+  }
+ ],
+ "matrix": [
+  {
+   "player": "BILLY MUSSER",
+   "weeks": [
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "BOB BRASWELL",
+   "weeks": [
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "BOB SIMPSON",
+   "weeks": [
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "BOBBIE VERTS",
+   "weeks": [
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "BRAD ETTLING",
+   "weeks": [
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "Chris Blome",
+   "weeks": [
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 1,
+     "won": 23
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 1,
+     "won": 70
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 1,
+     "won": 9
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 1,
+     "won": 18
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 120
+  },
+  {
+   "player": "CHUCK TIPTON",
+   "weeks": [
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 1,
+     "won": 35
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 35
+  },
+  {
+   "player": "Darren Hellen",
+   "weeks": [
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "LARRY O'NIEL",
+   "weeks": [
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 1,
+     "won": 12
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 1,
+     "won": 18
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 30
+  },
+  {
+   "player": "Tyson M.",
+   "weeks": [
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 1,
+     "won": 18
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 18
+  },
+  {
+   "player": "GINA STROH",
+   "weeks": [
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 1,
+     "won": 23
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 1,
+     "won": 12
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 35
+  },
+  {
+   "player": "GREG THOMAS",
+   "weeks": [
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "Jay Reeser",
+   "weeks": [
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "MIKE TIERNAN",
+   "weeks": [
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 1,
+     "won": 9
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 9
+  },
+  {
+   "player": "Tom Wiegert",
+   "weeks": [
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 1,
+     "won": 9
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 1,
+     "won": 18
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 27
+  },
+  {
+   "player": "John Alesaki",
+   "weeks": [
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "JOHN COSTELLO",
+   "weeks": [
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 1,
+     "won": 70
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 70
+  },
+  {
+   "player": "KIP AND JOYCE",
+   "weeks": [
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 2,
+     "won": 47
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 1,
+     "won": 18
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 65
+  },
+  {
+   "player": "SUE ARNOLD",
+   "weeks": [
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 1,
+     "won": 23
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 23
+  },
+  {
+   "player": "MARTINE SAENZ",
+   "weeks": [
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "MICHELLE SANDHEINDRICH",
+   "weeks": [
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 1,
+     "won": 23
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 1,
+     "won": 12
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 1,
+     "won": 105
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 140
+  },
+  {
+   "player": "MIKE SANDHEINDRICH",
+   "weeks": [
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 1,
+     "won": 9
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 9
+  },
+  {
+   "player": "Mona (KC)",
+   "weeks": [
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 1,
+     "won": 12
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 1,
+     "won": 35
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 1,
+     "won": 70
+    }
+   ],
+   "total": 117
+  },
+  {
+   "player": "PAUL STROH",
+   "weeks": [
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 1,
+     "won": 18
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 18
+  },
+  {
+   "player": "RICH GORAZD",
+   "weeks": [
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 1,
+     "won": 12
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 12
+  },
+  {
+   "player": "RICH REED",
+   "weeks": [
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 1,
+     "won": 18
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 18
+  },
+  {
+   "player": "Rob Stroh",
+   "weeks": [
+    {
+     "team": "OAK",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 0
+  },
+  {
+   "player": "RON BRIGHT",
+   "weeks": [
+    {
+     "team": "PHI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 1,
+     "won": 70
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 1,
+     "won": 18
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 88
+  },
+  {
+   "player": "RON CAVINS",
+   "weeks": [
+    {
+     "team": "PIT",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 1,
+     "won": 35
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 1,
+     "won": 35
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 70
+  },
+  {
+   "player": "STEVE COSTELLO",
+   "weeks": [
+    {
+     "team": "SD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SF",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "SEA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "STL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TB",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TEX",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "TOR",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "WAS",
+     "hits": 1,
+     "won": 35
+    },
+    {
+     "team": "ARI",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "ATL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "BAL",
+     "hits": 1,
+     "won": 12
+    },
+    {
+     "team": "BOS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CHC",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CWS",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "CLE",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "COL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "DET",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "FLA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "HOU",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "KAN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAA",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "LAD",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIL",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "MIN",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYM",
+     "hits": 0,
+     "won": 0
+    },
+    {
+     "team": "NYY",
+     "hits": 0,
+     "won": 0
+    }
+   ],
+   "total": 47
+  }
+ ],
+ "standings": [
+  {
+   "player": "MICHELLE SANDHEINDRICH",
+   "total": 140
+  },
+  {
+   "player": "Chris Blome",
+   "total": 120
+  },
+  {
+   "player": "Mona (KC)",
+   "total": 117
+  },
+  {
+   "player": "RON BRIGHT",
+   "total": 88
+  },
+  {
+   "player": "JOHN COSTELLO",
+   "total": 70
+  },
+  {
+   "player": "RON CAVINS",
+   "total": 70
+  },
+  {
+   "player": "KIP AND JOYCE",
+   "total": 65
+  },
+  {
+   "player": "STEVE COSTELLO",
+   "total": 47
+  },
+  {
+   "player": "CHUCK TIPTON",
+   "total": 35
+  },
+  {
+   "player": "GINA STROH",
+   "total": 35
+  },
+  {
+   "player": "LARRY O'NIEL",
+   "total": 30
+  },
+  {
+   "player": "Tom Wiegert",
+   "total": 27
+  },
+  {
+   "player": "SUE ARNOLD",
+   "total": 23
+  },
+  {
+   "player": "PAUL STROH",
+   "total": 18
+  },
+  {
+   "player": "RICH REED",
+   "total": 18
+  },
+  {
+   "player": "Tyson M.",
+   "total": 18
+  },
+  {
+   "player": "RICH GORAZD",
+   "total": 12
+  },
+  {
+   "player": "MIKE SANDHEINDRICH",
+   "total": 9
+  },
+  {
+   "player": "MIKE TIERNAN",
+   "total": 9
+  },
+  {
+   "player": "BILLY MUSSER",
+   "total": 0
+  },
+  {
+   "player": "BOB BRASWELL",
+   "total": 0
+  },
+  {
+   "player": "BOB SIMPSON",
+   "total": 0
+  },
+  {
+   "player": "BOBBIE VERTS",
+   "total": 0
+  },
+  {
+   "player": "BRAD ETTLING",
+   "total": 0
+  },
+  {
+   "player": "Darren Hellen",
+   "total": 0
+  },
+  {
+   "player": "GREG THOMAS",
+   "total": 0
+  },
+  {
+   "player": "Jay Reeser",
+   "total": 0
+  },
+  {
+   "player": "John Alesaki",
+   "total": 0
+  },
+  {
+   "player": "MARTINE SAENZ",
+   "total": 0
+  },
+  {
+   "player": "Rob Stroh",
+   "total": 0
+  }
+ ]
+}
