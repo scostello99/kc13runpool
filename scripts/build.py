@@ -29,18 +29,28 @@ def excel_round(x):
 
 def fetch_sdql_html(season):
     url = SDQL_URL.format(season=season)
-    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (KC13RunPool results bot)"})
+    req = urllib.request.Request(url, headers={
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,*/*;q=0.8"})
     with urllib.request.urlopen(req, timeout=60) as r:
         return r.read().decode("utf-8", "ignore")
 
 
 def parse_sdql_html(page):
-    """Return list of (yyyymmdd:int, team:str, runs:int) from the SDQL result table (id=pyql_id)."""
-    m = re.search(r'<table[^>]*id="pyql_id"[^>]*>(.*?)</table>', page, re.S | re.I)
-    if not m:
-        raise RuntimeError("SDQL result table (pyql_id) not found in page")
+    """Return list of (yyyymmdd:int, team:str, runs:int) from the SDQL result table.
+
+    Looks for the table with id pyql_id (single or double quotes), and failing that
+    any table whose header row is date / team / runs.
+    """
+    tables = re.findall(r"<table\b[^>]*>.*?</table>", page, re.S | re.I)
+    candidates = [t for t in tables if re.search(r"""id\s*=\s*['"]?pyql_id""", t, re.I)]
+    if not candidates:
+        candidates = [t for t in tables if re.search(r"<th[^>]*>\s*date\s*</th>\s*<th[^>]*>\s*team\s*</th>\s*<th[^>]*>\s*runs\s*</th>", t, re.S | re.I)]
+    if not candidates:
+        snippet = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", page))[:1500]
+        raise RuntimeError("SDQL result table not found in page. Page text begins: " + snippet)
     rows = []
-    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", m.group(1), re.S | re.I):
+    for tr in re.findall(r"<tr[^>]*>(.*?)</tr>", candidates[0], re.S | re.I):
         cells = [htmllib.unescape(re.sub(r"<[^>]+>", "", c)).strip()
                  for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", tr, re.S | re.I)]
         if len(cells) >= 3 and re.fullmatch(r"\d{8}", cells[0]) and cells[2].isdigit():
