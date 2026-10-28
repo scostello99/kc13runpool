@@ -76,7 +76,7 @@ def build(rows):
     opening = dt.date.fromisoformat(CFG["opening_date"])
     last = dt.date.fromisoformat(CFG["last_date"])
     pot = CFG["payout_per_week"]
-    seed = CFG["rotation_seed"]
+    seed = CFG.get("rotation_seed")   # None/absent = alphabetical: player 1 gets team 1 in week 1
     players = CFG["players"]
     teams = CFG["teams"]                       # [abbr, full name, SDQL name]
     n_teams = len(teams)
@@ -135,7 +135,10 @@ def build(rows):
         cells = []
         total = 0
         for w in weeks:
-            abbr = teams[(pid + w["id"] + seed) % n_teams][0]
+            if seed is None:
+                abbr = teams[(pid - 1 + w["id"] - 1) % n_teams][0]
+            else:
+                abbr = teams[(pid + w["id"] + seed) % n_teams][0]
             hits = w["teams_hit"].count(abbr)
             won = excel_round(hits * w["unit"]) if hits else 0
             total += won
@@ -177,6 +180,26 @@ def build(rows):
     }
 
 
+def update_history(data):
+    """Keep history.json current: one frozen entry per season, this season upserted."""
+    hp = ROOT / "history.json"
+    hist = json.loads(hp.read_text(encoding="utf-8")) if hp.exists() else {"seasons": []}
+    entry = {
+        "season": data["season"],
+        "players": data["player_count"],
+        "entry_fee": data["entry_fee"],
+        "weeks": len(data["weeks"]),
+        "total_collected": data["total_collected"],
+        "payout_per_week": data["payout_per_week"],
+        "total_paid": data["total_paid"],
+        "steak_dinner": data["total_collected"] - data["total_paid"],
+        "standings": data["standings"],
+    }
+    seasons = [x for x in hist["seasons"] if x.get("season") != data["season"]] + [entry]
+    seasons.sort(key=lambda x: x["season"])
+    hp.write_text(json.dumps({"seasons": seasons}, indent=1), encoding="utf-8")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--from", dest="src", help="saved SDQL HTML, CSV or JSON rows instead of live fetch")
@@ -193,6 +216,7 @@ def main():
 
     data = build(rows)
     Path(a.out).write_text(json.dumps(data, indent=1), encoding="utf-8")
+    update_history(data)
     print(f"OK: {len(rows)} SDQL rows -> {len(data['events'])} events, "
           f"{len(data['weeks'])} weeks, total paid ${data['total_paid']}")
 
